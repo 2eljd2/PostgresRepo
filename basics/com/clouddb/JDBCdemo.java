@@ -18,7 +18,7 @@ public class JDBCdemo {
 	 *
 	 * @return a Connection object
 	 */
-
+ 
 	public static Connection connect() throws SQLException {
 		return DriverManager.getConnection(url, user, password);
 	}
